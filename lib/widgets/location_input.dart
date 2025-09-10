@@ -20,7 +20,7 @@ class _LocationInputState extends State<LocationInput> {
   GoogleMapController? _mapController;
 
   Future<void> getCurrentLocation() async {
-    //  const String apiKey = 'AIzaSyBj88iw-SbyygN8fgzN9GJC8EVDM54zQHw';
+    
     loc.Location location = loc.Location();
 
     bool serviceEnabled;
