@@ -20,10 +20,6 @@ class _LocationInputState extends State<LocationInput> {
   GoogleMapController? _mapController;
 
   Future<void> getCurrentLocation() async {
-<<<<<<< HEAD
-=======
-    
->>>>>>> f32743470021fa139b0ca0b3dfe0e718229b9153
     loc.Location location = loc.Location();
 
     bool serviceEnabled;
